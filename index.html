@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
+    
+</head>    
+<body>
+
+<label for="z1">Z1:</label>
+<input type="number" id="realni1" name="z1" placeholder="realni">
+<input type="number" id="imaginarni1" name="z1" placeholder="imaginarni"><br>
+
+<label for="z2">Z2:</label>
+<input type="number" id="realni2" name="z2" placeholder="realni">
+<input type="number" id="imaginarni2" name="z2" placeholder="imaginarni"><br>
+
+
+<!--<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><button onclick="Mnozenje()">Zbroji</button></li>
+      <li><button onclick="Zbrajanje()">Pomnozi</button></li>
+    </ul>
+  </div>-->
+  <br>
+ 
+  <form action="#">
+    <label for="lang">Odaberite</label>
+  
+    <select name="languages" id="odabir">
+      <option  value="zbrajanje" id="zbranjanje">Zbrajanje</option>
+      <option  value="mnozenje" id="mnozenje" >Mnozenje</option>
+    </select>
+    <br>
+    <br>
+    <button type="button" onclick="rezultat()">Prikazi rezultat</button><br>
+    
+    <output id="odgovor"></output>
+</form>
+
+
+<script src="KompleksniBroj.js"></script>
+</body>
+</html>
